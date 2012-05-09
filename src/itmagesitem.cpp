@@ -44,7 +44,7 @@ ITmagesItem::ITmagesItem(int row, QString imgPath, QWidget *parent) :
                      +QString::number(pixmap.width())+"x"+QString::number(pixmap.height())
                      +tr("pix."));
 
-    btnImage->setIcon(pixmap.scaled(80,80,Qt::KeepAspectRatio,Qt::SmoothTransformation));
+    btnImage->setIcon(pixmap.scaled(80, 80, Qt::KeepAspectRatio, Qt::SmoothTransformation));
 
     lblImgPath->setText(tr("<b>Name:</b> ")+QFileInfo(imgPath).fileName());
 
