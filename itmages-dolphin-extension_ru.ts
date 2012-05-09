@@ -47,27 +47,27 @@
         <translation type="obsolete">BB полноразмерное изображение</translation>
     </message>
     <message>
-        <location filename="src/itmagesitem.cpp" line="26"/>
+        <location filename="src/itmagesitem.cpp" line="43"/>
         <source>&lt;b&gt;Size:&lt;/b&gt; </source>
         <translation>&lt;b&gt;Размер:&lt;/b&gt; </translation>
     </message>
     <message>
-        <location filename="src/itmagesitem.cpp" line="27"/>
+        <location filename="src/itmagesitem.cpp" line="44"/>
         <source>KiB, &lt;b&gt;Res:&lt;/b&gt; </source>
         <translation>кБ, &lt;b&gt;Разр:&lt;/b&gt; </translation>
     </message>
     <message>
-        <location filename="src/itmagesitem.cpp" line="29"/>
+        <location filename="src/itmagesitem.cpp" line="46"/>
         <source>pix.</source>
         <translation>пикс.</translation>
     </message>
     <message>
-        <location filename="src/itmagesitem.cpp" line="33"/>
+        <location filename="src/itmagesitem.cpp" line="50"/>
         <source>&lt;b&gt;Name:&lt;/b&gt; </source>
         <translation>&lt;b&gt;Имя:&lt;/b&gt; </translation>
     </message>
     <message>
-        <location filename="src/itmagesitem.cpp" line="174"/>
+        <location filename="src/itmagesitem.cpp" line="188"/>
         <source>Right click to select type of link.</source>
         <translation>Правый клик мышкой для смены типа ссылки.</translation>
     </message>
@@ -103,12 +103,12 @@
         <translation type="obsolete">BB полноразмерное изображение</translation>
     </message>
     <message>
-        <location filename="src/itmages-uploader.cpp" line="161"/>
+        <location filename="src/itmagesuploader.cpp" line="180"/>
         <source>MiB</source>
         <translation>МБ</translation>
     </message>
     <message>
-        <location filename="src/itmages-uploader.cpp" line="163"/>
+        <location filename="src/itmagesuploader.cpp" line="182"/>
         <source>KiB</source>
         <translation>кБ</translation>
     </message>
@@ -125,19 +125,19 @@
         <translation type="obsolete"> изображения(й), </translation>
     </message>
     <message>
-        <location filename="src/itmages-uploader.cpp" line="165"/>
+        <location filename="src/itmagesuploader.cpp" line="184"/>
         <source>&lt;b&gt;Images:&lt;/b&gt; </source>
         <oldsource> &lt;b&gt;Images:&lt;/b&gt; </oldsource>
         <translation>&lt;b&gt;Изображений:&lt;/b&gt; </translation>
     </message>
     <message>
-        <location filename="src/itmages-uploader.cpp" line="166"/>
+        <location filename="src/itmagesuploader.cpp" line="185"/>
         <source>&lt;b&gt;Size:&lt;/b&gt; </source>
         <oldsource>  &lt;b&gt;Size:&lt;/b&gt; </oldsource>
         <translation>&lt;b&gt;Размер:&lt;/b&gt; </translation>
     </message>
     <message>
-        <location filename="src/itmages-uploader.cpp" line="194"/>
+        <location filename="src/itmagesuploader.cpp" line="211"/>
         <source>Server returned wrong image info.
 Please, try again.</source>
         <oldsource>Server returned wrong image info.Please, try again.</oldsource>
@@ -145,12 +145,12 @@ Please, try again.</source>
 Пожалуйста, попробуйте снова.</translation>
     </message>
     <message>
-        <location filename="src/itmages-uploader.cpp" line="202"/>
+        <location filename="src/itmagesuploader.cpp" line="222"/>
         <source>This image already uploaded</source>
         <translation>Это изображение уже загружено</translation>
     </message>
     <message>
-        <location filename="src/itmages-uploader.cpp" line="209"/>
+        <location filename="src/itmagesuploader.cpp" line="230"/>
         <source>Can&apos;t connect to server.
 Please, try again later.
 Or try to reboot your PC.</source>
@@ -162,14 +162,14 @@ Please, try again later.
 Или попробуйте перезагрузить свой ПК.</translation>
     </message>
     <message>
-        <location filename="src/itmages-uploader.cpp" line="218"/>
+        <location filename="src/itmagesuploader.cpp" line="239"/>
         <source>Can&apos;t connect to itmages.ru.
 Maybe the site is down.</source>
         <translation>Невозможно соединиться с itmages.ru.
 Возможно сайт недоступен.</translation>
     </message>
     <message>
-        <location filename="src/itmages-uploader.cpp" line="225"/>
+        <location filename="src/itmagesuploader.cpp" line="246"/>
         <source>Unable to login.
 Check your login and password.</source>
         <oldsource>Logging error.
@@ -181,38 +181,38 @@ Check your login and password.</oldsource>
 <context>
     <name>MainWindow</name>
     <message>
-        <location filename="src/itmages-uploader.ui" line="506"/>
+        <location filename="src/itmagesuploader.ui" line="506"/>
         <source>Summary:</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="src/itmages-uploader.ui" line="519"/>
+        <location filename="src/itmagesuploader.ui" line="519"/>
         <source>Upload</source>
         <translation>Загрузить</translation>
     </message>
     <message>
-        <location filename="src/itmages-uploader.ui" line="484"/>
+        <location filename="src/itmagesuploader.ui" line="484"/>
         <source>Settings</source>
         <translation>Настройки</translation>
     </message>
     <message>
-        <location filename="src/itmages-uploader.ui" line="92"/>
+        <location filename="src/itmagesuploader.ui" line="92"/>
         <source>Profile</source>
         <translation>Профиль</translation>
     </message>
     <message>
-        <location filename="src/itmages-uploader.ui" line="148"/>
-        <location filename="src/itmages-uploader.ui" line="310"/>
+        <location filename="src/itmagesuploader.ui" line="148"/>
+        <location filename="src/itmagesuploader.ui" line="310"/>
         <source>Password:</source>
         <translation>Пароль:</translation>
     </message>
     <message>
-        <location filename="src/itmages-uploader.ui" line="113"/>
+        <location filename="src/itmagesuploader.ui" line="113"/>
         <source>Login:</source>
         <translation>Логин:</translation>
     </message>
     <message>
-        <location filename="src/itmages-uploader.ui" line="177"/>
+        <location filename="src/itmagesuploader.ui" line="177"/>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
@@ -225,53 +225,53 @@ p, li { white-space: pre-wrap; }
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Вы можете создать профиль на: &lt;a href=&quot;http://itmages.ru/user/register&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0057ae;&quot;&gt;http://itmages.ru&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="src/itmages-uploader.ui" line="207"/>
+        <location filename="src/itmagesuploader.ui" line="207"/>
         <source>Proxy</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="src/itmages-uploader.ui" line="231"/>
+        <location filename="src/itmagesuploader.ui" line="231"/>
         <source>Type:</source>
         <translation>Тип:</translation>
     </message>
     <message>
-        <location filename="src/itmages-uploader.ui" line="251"/>
+        <location filename="src/itmagesuploader.ui" line="251"/>
         <source>HTTP</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="src/itmages-uploader.ui" line="256"/>
+        <location filename="src/itmagesuploader.ui" line="256"/>
         <source>SOCKS4</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="src/itmages-uploader.ui" line="261"/>
+        <location filename="src/itmagesuploader.ui" line="261"/>
         <source>SOCKS5</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="src/itmages-uploader.ui" line="278"/>
+        <location filename="src/itmagesuploader.ui" line="278"/>
         <source>User:</source>
         <translation>Пользователь:</translation>
     </message>
     <message>
-        <location filename="src/itmages-uploader.ui" line="348"/>
+        <location filename="src/itmagesuploader.ui" line="348"/>
         <source>Port:</source>
         <translation>Порт:</translation>
     </message>
     <message>
-        <location filename="src/itmages-uploader.ui" line="386"/>
+        <location filename="src/itmagesuploader.ui" line="386"/>
         <source>Node:</source>
         <translation>Узел:</translation>
     </message>
     <message>
-        <location filename="src/itmages-uploader.ui" line="433"/>
+        <location filename="src/itmagesuploader.ui" line="433"/>
         <source>It may also be set via copy button context menu</source>
         <oldsource>Also can be set by copy button context menu</oldsource>
         <translation>Также, может быть задано через контекстное меню кнопки копировать</translation>
     </message>
     <message>
-        <location filename="src/itmages-uploader.ui" line="436"/>
+        <location filename="src/itmagesuploader.ui" line="436"/>
         <source>Current link type:</source>
         <translation>Текущий тип ссылки:</translation>
     </message>
@@ -283,52 +283,58 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>QObject</name>
     <message>
-        <location filename="src/main.cpp" line="34"/>
         <source>No images selected.
 Program will be closed.</source>
-        <translation>Изображения не выбраны.
+        <translation type="obsolete">Изображения не выбраны.
 Программа будет завершена.</translation>
     </message>
     <message>
-        <location filename="src/links.cpp" line="10"/>
+        <location filename="src/links.cpp" line="27"/>
         <source>Link to image</source>
         <translation>Ссылка на изображение</translation>
     </message>
     <message>
-        <location filename="src/links.cpp" line="11"/>
+        <location filename="src/links.cpp" line="28"/>
         <source>Page with all links</source>
         <translation>Страница со всеми ссылками</translation>
     </message>
     <message>
-        <location filename="src/links.cpp" line="12"/>
+        <location filename="src/links.cpp" line="29"/>
         <source>Short link</source>
         <oldsource>Short links</oldsource>
         <translation>Короткая ссылка</translation>
     </message>
     <message>
-        <location filename="src/links.cpp" line="13"/>
+        <location filename="src/links.cpp" line="30"/>
         <source>HTML preview for forum</source>
         <translation>HTML привью для форума</translation>
     </message>
     <message>
-        <location filename="src/links.cpp" line="14"/>
+        <location filename="src/links.cpp" line="31"/>
         <source>HTML full size image</source>
         <translation>HTML полноразмерное изображение</translation>
     </message>
     <message>
-        <location filename="src/links.cpp" line="15"/>
+        <location filename="src/links.cpp" line="32"/>
         <source>BB preview for forum</source>
         <translation>BB привью для форума</translation>
     </message>
     <message>
-        <location filename="src/links.cpp" line="16"/>
+        <location filename="src/links.cpp" line="33"/>
         <source>BB full size image</source>
         <translation>BB полноразмерное изображение</translation>
     </message>
     <message>
-        <location filename="src/links.cpp" line="17"/>
+        <location filename="src/links.cpp" line="34"/>
         <source>Link to full size image</source>
         <translation>Ссылка на полноразмерное изображение</translation>
+    </message>
+    <message>
+        <location filename="src/main.cpp" line="50"/>
+        <source>No images are selected.
+Program will be closed.</source>
+        <translation>Изображения не выбраны.
+Программа будет завершена.</translation>
     </message>
 </context>
 </TS>

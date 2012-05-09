@@ -5,18 +5,30 @@ TEMPLATE  = app
 
 SOURCES  += src/main.cpp \
             src/itmagesitem.cpp \
-            src/itmages-uploader.cpp \
-            src/links.cpp
+            src/links.cpp \
+            src/itmagesuploader.cpp
 		
 HEADERS  += src/itmagesitem.h \
-            src/itmages-uploader.h \
-            src/links.h
+            src/links.h \
+            src/itmagesuploader.h
 
 FORMS    += src/itmagesitem.ui \
-            src/itmages-uploader.ui
+            src/itmagesuploader.ui
 
 TRANSLATIONS = itmages-dolphin-extension_ru.ts
 CODECFORSRC  = UTF-8
+
+# generate translations
+isEmpty(QMAKE_LRELEASE) {
+    !exists($$QMAKE_LRELEASE) { QMAKE_LRELEASE = lrelease }
+}
+
+updateqm.input = TRANSLATIONS
+updateqm.output = ${QMAKE_FILE_BASE}.qm
+updateqm.commands = $$QMAKE_LRELEASE -silent ${QMAKE_FILE_IN} \
+                    -qm ${QMAKE_FILE_BASE}.qm
+updateqm.CONFIG += no_link target_predeps
+QMAKE_EXTRA_COMPILERS += updateqm
 
 unix {
   isEmpty(PREFIX):PREFIX = /usr
