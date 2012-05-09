@@ -27,23 +27,18 @@ int main(int argc, char *argv[])
 {
     QApplication app(argc, argv);
 
-    // load itmages-dolphin-extension translation
-    app.addLibraryPath("/usr/share/itmages/");
-    QTranslator translator;
-    if (translator.load("itmages-dolphin-extension_"+QLocale::system().name()))
-        app.installTranslator(&translator);
-
     // load translation for Qt
     QTranslator qtTranslator;
     qtTranslator.load("qt_"+QLocale::system().name(),
                       QLibraryInfo::location(QLibraryInfo::TranslationsPath));
     app.installTranslator(&qtTranslator);
 
-//    if (QLocale::system().name().contains(QRegExp("ru"))) {
-//        QTranslator *translator = new QTranslator;
-//        translator->load("/usr/share/itmages/itmages-dolphin-extension_ru");
-//        qApp->installTranslator(translator);
-//    }
+    // load itmages-dolphin-extension translation
+    if (QLocale::system().name().contains(QRegExp("ru"))) {
+        QTranslator *translator = new QTranslator;
+        translator->load("/usr/share/itmages/itmages-dolphin-extension_ru");
+        qApp->installTranslator(translator);
+    }
 
     QStringList tempList = QApplication::arguments();
     tempList.removeFirst();
