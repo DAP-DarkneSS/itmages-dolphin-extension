@@ -1,0 +1,53 @@
+itmages-dolphin-extension (1.07) natty; urgency=low
+
+  * Version update
+
+ -- Raizner Evgeniy <razrfalcon@gmail.com>  Tue, 25 Oct 2011 12:00:00 +0200
+
+itmages-dolphin-extension (1.06) natty; urgency=low
+
+  * Fixed image preview
+  * Link types combobox moved to previous place
+  * Crash fixed
+
+ -- Raizner Evgeniy <razrfalcon@gmail.com>  Sun, 09 Oct 2011 22:00:00 +0200
+
+itmages-dolphin-extension (1.05) natty; urgency=low
+
+  * Click on image opens it
+  * Link types combobox moved to main window
+  * Small fixes
+
+ -- Raizner Evgeniy <razrfalcon@gmail.com>  Sat, 08 Oct 2011 22:00:00 +0200
+
+itmages-dolphin-extension (1.04) natty; urgency=low
+
+  * Progressbar fixes
+  * Some crashes fixed
+
+ -- Raizner Evgeniy <razrfalcon@gmail.com>  Sat, 18 Aug 2011 22:00:00 +0200
+
+itmages-dolphin-extension (1.03) natty; urgency=low
+
+  * Added short link (like tiny url)
+
+ -- Raizner Evgeniy <razrfalcon@gmail.com>  Sat, 08 Aug 2011 22:00:00 +0200
+
+itmages-dolphin-extension (1.01) natty; urgency=low
+
+  * Fully rewrited
+
+ -- Raizner Evgeniy <razrfalcon@gmail.com>  Sat, 06 Aug 2011 23:00:00 +0200
+
+itmages-dolphin-extension (0.24) natty; urgency=low
+
+  * Added full size of all uploads images
+  * Autoscroll to next image after clicked "Copy link" 
+
+ -- Raizner Evgeniy <razrfalcon@gmail.com>  Wed, 28 Jul 2011 23:00:00 +0200
+
+itmages-dolphin-extension (0.23) natty; urgency=low
+
+  * Dolphin extension release
+
+ -- Dmitry Kor <rmPIC30@gmail.com>  Wed, 1 May 2010 00:00:00 +0300

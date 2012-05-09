@@ -1,0 +1,11 @@
+[Desktop Entry]
+Actions=Upload;
+Type=Service
+ServiceTypes=KonqPopupMenu/Plugin
+MimeType=image/png;image/jpeg;image/gif;
+
+[Desktop Action Upload]
+Name=Upload to ITmages
+Name[ru]=Загрузить на ITmages
+Exec=itmages-dolphin-extension %U
+Icon=itmages.svg

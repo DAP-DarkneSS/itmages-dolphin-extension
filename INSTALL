@@ -1,0 +1,7 @@
+Depends: qt 4.7.*, dolphin
+
+ITmages context menu extension installation:
+1. lrelease itmages-dolphin-extension_ru.ts
+2. qmake itmages-dolphin-extension.pro
+3. make
+4. make install

@@ -1,0 +1,14 @@
+Source: itmages-dolphin-extension
+Section: graphics
+Priority: extra
+Maintainer: Dmitry Kor <rmPIC30@gmail.com>
+Standards-Version: 3.9.1
+Build-Depends: debhelper (>= 7), cdbs, qt4-qmake, build-essential, libqt4-dev, cmake, kdelibs-bin, kdelibs5-dev
+Homepage: https://launchpad.net/~itmages
+
+Package: itmages-dolphin-extension
+Depends: libqt4-core, libqt4-gui, libqt4-dbus, itmages-service, ${shlibs:Depends}
+Architecture: any
+Description: Dolphin extension for upload pictures to service ITmages.ru
+ This extension allows you to upload your favorite images, photos, 
+ screenshots of image hosting ITmages.ru
