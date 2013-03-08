@@ -1,3 +1,10 @@
+itmages-dolphin-extension (1.09) natty; urgency=low
+
+  * Changed code syntax.
+  * Some small fixes.
+
+ -- Dmitry Korotovsky <rmpic30@gmail.com>  Tue, 8 Mar 2013 12:00:00 +0200
+
 itmages-dolphin-extension (1.08) natty; urgency=low
 
   * Changed code syntax.
