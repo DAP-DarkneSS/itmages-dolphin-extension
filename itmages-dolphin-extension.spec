@@ -1,6 +1,6 @@
 %define name itmages-dolphin-extension
-%define version 1.07
-%define unmangled_version 1.07
+%define version 1.09.1
+%define unmangled_version 1.09.1
 %define release 1
 %define _tempdir /tmp/tmpbuild
 %define is_mandriva %(test -e /etc/mandriva-release && echo 1 || echo 0)
