@@ -199,20 +199,28 @@ void ITmagesUploader::uploadComplete(const QString &reply)
     QStringList args = reply.split(";;");
     if (reply.contains(QRegExp("action:upload;;status:True;;full.*filename"))) {
         for (int i = 0; i < itemList.count(); ++i) {
-            if (itemList.at(i)->imgPath() == args.filter("filename:").first().remove("filename:")){
-                if (reply.contains(QRegExp("id|key|server|short|small|full"))) {
-                    itemList.at(i)->createLinks(args.filter("id:").first().remove("id:"),
-                                                args.filter("key").first().remove("key:"),
-                                                args.filter("server").first().remove("server:"),
-                                                args.filter("short").first().remove("short:"),
-                                                args.filter("small").first().remove("small:"),
-                                                args.filter("full").first().remove("full:"));
-                } else {
-                    QMessageBox::warning(this,"Warning - ITmages Uploader",
-                                         tr("Server returned wrong image info.\n"
-                                         "Please, try again."),
-                                         QMessageBox::Ok);
+            bool isInfoError = true;
+            QString fileName;
+            if (!args.filter("filename:").isEmpty())
+                fileName = args.filter("filename:").first().remove("filename:");
+            if (!fileName.isEmpty()) {
+                if (itemList.at(i)->imgPath() == fileName){
+                    if (reply.contains(QRegExp("id|key|server|short|small|full"))) {
+                        itemList.at(i)->createLinks(args.filter("id:").first().remove("id:"),
+                                                    args.filter("key").first().remove("key:"),
+                                                    args.filter("server").first().remove("server:"),
+                                                    args.filter("short").first().remove("short:"),
+                                                    args.filter("small").first().remove("small:"),
+                                                    args.filter("full").first().remove("full:"));
+                        isInfoError = false;
+                    }
                 }
+            }
+            if (isInfoError) {
+                QMessageBox::warning(this,"Warning - ITmages Uploader",
+                                     tr("Server returned wrong image info.\n"
+                                     "Please, try again."),
+                                     QMessageBox::Ok);
             }
         }
     } else if (reply.contains("action:upload;;status:True;;reason:Done")) {

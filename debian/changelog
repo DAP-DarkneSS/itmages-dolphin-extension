@@ -1,3 +1,9 @@
+itmages-dolphin-extension (1.10) natty; urgency=low
+
+  * Fixed server answer parsing.
+
+ -- Raizner Evgeniy <razrfalcon@gmail.com>  Wed, 21 Aug 2013 12:00:00 +0200
+
 itmages-dolphin-extension (1.09.1) natty; urgency=low
 
   * Changed code syntax.
