@@ -1,3 +1,10 @@
+itmages-dolphin-extension (1.10.1) unstable; urgency=low
+
+  * Added itmages-uploader.desktop to upload from any FM.
+  * Made itmages-dolphin-extension.desktop non-executable.
+
+ -- Dmitriy Perlow <dap.darkness@gmail.com>  Tue, 27 May 2014 22:24:22 +0300
+
 itmages-dolphin-extension (1.10) natty; urgency=low
 
   * Fixed server answer parsing.
