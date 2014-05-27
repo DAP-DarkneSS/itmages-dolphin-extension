@@ -23,11 +23,14 @@ unix {
 
   INSTALLS      += target \
                    desktop \
+                   desktop1 \
                    trans \
                    images
 
   desktop.path   = $$PREFIX/share/kde4/services/ServiceMenus
   desktop.files += itmages-dolphin-extension.desktop
+  desktop1.path   = $$PREFIX/share/applications
+  desktop1.files += itmages-uploader.desktop
   images.path    = $$PREFIX/share/icons/hicolor/scalable/apps
   images.files  += itmages.svg
   trans.path     = $$PREFIX/share/itmages

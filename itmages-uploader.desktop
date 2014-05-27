@@ -1,10 +1,8 @@
 [Desktop Entry]
-Actions=Upload;
-Type=Service
-ServiceTypes=KonqPopupMenu/Plugin
+Categories=Utility;WebUtility;
+Encoding=UTF-8
+Type=Application
 MimeType=image/png;image/jpeg;image/gif;
-
-[Desktop Action Upload]
 Name=Upload to ITmages
 Name[ru]=Загрузить на ITmages
 GenericName=Upload images to ITmages
