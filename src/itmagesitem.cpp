@@ -20,7 +20,7 @@
 #include <QtCore/QUrl>
 #include <QtGui/QClipboard>
 #include <QtGui/QDesktopServices>
-#include <QtGui/QMenu>
+#include <QMenu>
 
 #include "src/itmagesitem.h"
 
