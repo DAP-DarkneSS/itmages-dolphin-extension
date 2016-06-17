@@ -15,7 +15,7 @@
  *   along with itmages-dolphin-extension.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-#include <QtGui/QMessageBox>
+#include <QMessageBox>
 #include <QtGui/QDesktopServices>
 #include <QtCore/QProcess>
 #include <QtCore/QSettings>

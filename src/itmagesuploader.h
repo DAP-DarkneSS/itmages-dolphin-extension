@@ -18,7 +18,7 @@
 #ifndef ITMAGESUPLOADER_H
 #define ITMAGESUPLOADER_H
 
-#include <QtGui/QMainWindow>
+#include <QMainWindow>
 #include <QtDBus/QDBusConnection>
 #include <QtDBus/QDBusInterface>
 

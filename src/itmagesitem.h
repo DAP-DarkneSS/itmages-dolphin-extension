@@ -18,9 +18,9 @@
 #ifndef ITMAGESITEM_H
 #define ITMAGESITEM_H
 
-#include <QtGui/QAction>
-#include <QtGui/QActionGroup>
-#include <QtGui/QWidget>
+#include <QAction>
+#include <QActionGroup>
+#include <QWidget>
 
 #include "src/links.h"
 #include "ui_itmagesitem.h"
