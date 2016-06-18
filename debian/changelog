@@ -1,3 +1,9 @@
+itmages-dolphin-extension (1.10.2) unstable; urgency=low
+
+  * Qt5 & man page.
+
+ -- Dmitriy Perlow <dap.darkness@gmail.com>  Sat, 18 Jun 2016 18:02:16 +0300
+
 itmages-dolphin-extension (1.10.1) unstable; urgency=low
 
   * Added itmages-uploader.desktop to upload from any FM.

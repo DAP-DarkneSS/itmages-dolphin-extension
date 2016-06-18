@@ -8,14 +8,13 @@
 #export DH_VERBOSE=1
 
 include /usr/share/cdbs/1/rules/debhelper.mk
-include /usr/share/cdbs/1/class/qmake.mk
 
 build: build-stamp
 build-stamp:
 	dh_testdir
 
 	# Add here commands to compile the package.
-	qmake-qt4 -config release
+	/usr/lib/*-linux-gnu/qt5/bin/qmake PREFIX=/usr
 	make
 
 	touch build-stamp
