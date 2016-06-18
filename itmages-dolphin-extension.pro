@@ -25,6 +25,7 @@ unix {
   INSTALLS      += target \
                    desktop \
                    desktop1 \
+                   man \
                    trans \
                    images
 
@@ -32,6 +33,8 @@ unix {
   desktop.files += itmages-dolphin-extension.desktop
   desktop1.path   = $$PREFIX/share/applications
   desktop1.files += itmages-uploader.desktop
+  man.path   = $$PREFIX/share/man/man1
+  man.files += itmages-dolphin-extension.1
   images.path    = $$PREFIX/share/icons/hicolor/scalable/apps
   images.files  += itmages.svg
   trans.path     = $$PREFIX/share/itmages
